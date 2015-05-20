@@ -1,6 +1,7 @@
 package com.google.gwt.sample.stockwatcher.client;
 
     import com.google.gwt.core.client.JavaScriptObject;
+    //MinghaoLiu lfjdsalfjalsdk
 
     class StockData extends JavaScriptObject {                              // <span style="color:black;">**(1)**</span>
   // Overlay types always have protected, zero argument constructors.
