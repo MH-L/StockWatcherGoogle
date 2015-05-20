@@ -35,6 +35,8 @@ import com.google.gwt.http.client.Response;
 
 
 public class StockWatcher implements EntryPoint {
+	private boolean isIncreasing;
+	private int price;
 	private static final int REFRESH_INTERVAL = 5000; // ms
 	private VerticalPanel mainPanel = new VerticalPanel();
 	private FlexTable stocksFlexTable = new FlexTable();
